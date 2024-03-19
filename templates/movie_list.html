@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+{% for movie in movies %}
+    <h1>{{ movie.title }}</h1>
+    <h2><img src="{{ movie.image.url }}"></h2>
+    <h3>{{ movie.release_date }}</h3>
+{% endfor %}
+</body>
+</html>
