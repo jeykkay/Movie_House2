@@ -23,7 +23,7 @@ class DirectorAdmin(admin.ModelAdmin):
 
 @admin.register(Actor)
 class ActorAdmin(admin.ModelAdmin):
-    list_display = ['get_image', 'first_name', 'last_name']
+    list_display = ['get_image', 'first_name', 'last_name', 'age']
     list_display_links = ['first_name', 'last_name']
     search_fields = ['first_name', 'last_name', 'movie__title']
 

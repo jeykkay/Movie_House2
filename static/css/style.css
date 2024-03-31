@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: block;
+}
+
+.card-wrapper
+{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.nav-log
+{
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: white;
+    align-items: flex-end;
+    box-shadow: 1px 1px 1px black;
+    padding:5px;
+}
+
+.nav-log:hover
+{
+    color: white;
+    background-color: gray;
+    transform: scale(1.2);
+
+}
+
+.nav-item
+{
+    margin-bottom: 20px;
+    border: solid black 1px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+    padding:5px;
+}
+
+.nav-item:hover
+{
+    color: white;
+    background-color: gray;
+    transform: scale(1.2);
+}
+
+
